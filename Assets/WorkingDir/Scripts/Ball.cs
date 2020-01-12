@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Ball : MonoBehaviour
 {
@@ -18,10 +19,7 @@ public class Ball : MonoBehaviour
     void Update()
     {
         if (transform.position.y < plane.transform.position.y - 10)
-        {
-            Debug.Log("position y: " + transform.position.y);
             transform.position = spawnPoint.transform.position;
-        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -32,6 +30,14 @@ public class Ball : MonoBehaviour
 
     void GameOver()
     {
-        gameOverImage.SetActive(true);
+        if (SceneManager.GetActiveScene().name == "Level0")
+        {
+            SceneManager.LoadScene("Level1");
+        }
+        else
+        {
+            gameOverImage.SetActive(true);
+            Destroy(gameObject);
+        }
     }
 }
