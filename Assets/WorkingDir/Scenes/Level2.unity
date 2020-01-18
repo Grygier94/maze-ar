@@ -4655,8 +4655,8 @@ MonoBehaviour:
   mDataSetPath: Vuforia/AR_db.xml
   mAspectRatio: 1.4138439
   mImageTargetType: 0
-  mWidth: 679
-  mHeight: 960
+  mWidth: 70.729164
+  mHeight: 100
 --- !u!4 &1780257873
 Transform:
   m_ObjectHideFlags: 0
@@ -4666,7 +4666,7 @@ Transform:
   m_GameObject: {fileID: 1780257867}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 960, y: 960, z: 960}
+  m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children:
   - {fileID: 1658977739}
   - {fileID: 612715409}
