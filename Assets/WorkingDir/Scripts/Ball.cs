@@ -26,6 +26,9 @@ public class Ball : MonoBehaviour
     {
         if (other.CompareTag("Finish"))
             GameOver();
+
+        if (other.CompareTag("Spikes"))
+            SceneManager.LoadScene("Level0");
     }
 
     void GameOver()
