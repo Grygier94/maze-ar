@@ -18,7 +18,7 @@ public class Ball : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.y < plane.transform.position.y - 10)
+        if (transform.position.y < plane.transform.position.y - 200)
             transform.position = spawnPoint.transform.position;
     }
 
@@ -36,6 +36,10 @@ public class Ball : MonoBehaviour
         if (SceneManager.GetActiveScene().name == "Level0")
         {
             SceneManager.LoadScene("Level1");
+        }
+        else if (SceneManager.GetActiveScene().name == "Level1")
+        {
+            SceneManager.LoadScene("Level2");
         }
         else
         {
