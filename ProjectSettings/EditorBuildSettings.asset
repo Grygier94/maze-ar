@@ -9,15 +9,27 @@ EditorBuildSettings:
     path: Assets/WorkingDir/Scenes/MainMenu.unity
     guid: ac0131a723f0b584f9892e58df2d0ad6
   - enabled: 1
+    path: Assets/WorkingDir/Scenes/TargetScanner.unity
+    guid: c46d10676cb457c41873748d9a96b123
+  - enabled: 1
+    path: Assets/WorkingDir/Scenes/Level_1.unity
+    guid: 29d37d24b16c1ce48b1ec87a7d1c3b1b
+  - enabled: 1
+    path: Assets/WorkingDir/Scenes/Level_2.unity
+    guid: 28f6042d05997944f80b6a9a2adb4a57
+  - enabled: 1
+    path: Assets/WorkingDir/Scenes/Level_3.unity
+    guid: 04a171716f47c8447b52bfd2896ba950
+  - enabled: 0
     path: Assets/WorkingDir/Scenes/Level0.unity
     guid: 986b7136d9ef07149b5b0e088671d925
-  - enabled: 1
+  - enabled: 0
     path: Assets/WorkingDir/Scenes/Level1.unity
     guid: 56bafb1d73ae5b244b3c25cc2048a0f4
-  - enabled: 1
+  - enabled: 0
     path: Assets/WorkingDir/Scenes/Level2.unity
     guid: bb11e184d1b01d84297222758f3fde1c
-  - enabled: 1
+  - enabled: 0
     path: Assets/WorkingDir/Scenes/Settings.unity
     guid: 0c46e056d8dd31e41b1f799be2576f0d
   m_configObjects: {}
