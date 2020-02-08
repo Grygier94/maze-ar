@@ -18,7 +18,7 @@ public class Ball : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.y < plane.transform.position.y - 10)
+        if (transform.position.y < plane.transform.position.y - 200)
             transform.position = spawnPoint.transform.position;
     }
 
