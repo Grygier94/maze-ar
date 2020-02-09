@@ -9,8 +9,6 @@ public class VuforiaEventHandler : DefaultTrackableEventHandler
     {
         if (mTrackableBehaviour)
         {
-            Debug.Log("NAKE: ");
-            Debug.Log(mTrackableBehaviour.TrackableName);
             switch (mTrackableBehaviour.TrackableName)
             {
                 case "Maze0":
